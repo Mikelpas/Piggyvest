@@ -1,0 +1,39 @@
+
+.container{
+    display: flex;
+    margin-left: 50px;
+}
+
+.anchor{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.anchor: :hover{
+    cursor: pointer;
+}
+a{
+    margin-left: 30px;
+    text-decoration: none;
+}
+.button{
+    margin-left: 900px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+.b2{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+}
+.b1{
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+
+.image{
+    cursor: pointer;
+}
