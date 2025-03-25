@@ -33,7 +33,142 @@ a{
     border-radius: 15px;
 }
 
-
+.body{
+    font-family: "Plus Jakarta Sans", sans-serif; 
+}
 .image{
     cursor: pointer;
+}
+/* Tueday class */
+.center-div{
+  ;
+}
+.content{
+    text-align: center;
+    /* display: flex; */
+    
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+}
+.content p{
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: "Plus Jakarta Sans", sans-serif; 
+    /* (font.google.com)  */
+}
+.content span{
+    font-size: 20px;
+}
+
+
+.cards{
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+    justify-content: center;
+}
+.card{
+    height: 400px;
+    width: 400px;
+    background-color:white;
+    border-radius:20px;
+    padding: 15px 30px 10px 30px ;
+    line-height: 22px;
+    font-family:"Plus Jakarta Sans", sans-serif;
+    .card:hover{
+        color: blue;
+    }
+
+    
+}
+.card p{
+    font-size: 30px;
+    font-weight: bolder;
+   
+}
+.card-buttom{
+    display: flex;
+    position: absolute;
+    bottom: 8%;
+
+}
+
+.high:hover{
+    background-color: blue;
+    color: white;
+}
+.below:hover{
+    background-color: blue;
+    color: white;
+
+}
+
+.Mother{
+        display: flex;
+        gap: 20px;
+        margin-top: 25px;
+        justify-content: center;
+    
+}
+.Child{
+    height: 400px;
+    width: 400px;
+    background-color:white;
+    border-radius:20px;
+    padding: 15px 30px 10px 30px ;
+    line-height: 22px;
+    font-family:"Plus Jakarta Sans", sans-serif;
+    /* margin-top: 20px; */
+  
+}
+.Child p{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.grandchild{
+    display: flex;
+    position:initial;
+    margin-top: 190px;
+}
+.First:hover{
+    background-color: green;
+    color: white;
+}
+.Second:hover{
+     background-color:magenta;
+     color: white;
+}
+.Father{
+        display: flex;
+        gap: 20px;
+        margin-top: 25px;
+        justify-content: center;
+}
+.Son{
+    height: 400px;
+    width: 400px;
+    background-color:white;
+    border-radius:20px;
+    padding: 15px 30px 10px 30px ;
+    line-height: 22px;
+    font-family:"Plus Jakarta Sans", sans-serif;
+}
+.Son p{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.grandson{
+    display: flex;
+    position: initial;
+    margin-top: 200px;
+}
+.Elder:hover{
+    background-color: black;
+    color: white;
+}
+.Younger:hover{
+    background-color:orange;
+    color: white;
 }
